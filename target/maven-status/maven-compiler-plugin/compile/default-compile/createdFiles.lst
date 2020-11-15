@@ -1,0 +1,9 @@
+com\CRM\Pages\HomePage.class
+com\CRM\ExtentReportListener\ExtentReporterNG.class
+com\CRM\Pages\ContactsPage.class
+com\CRM\Pages\LoginPage.class
+com\CRM\Pages\DealsPage.class
+com\CRM\Pages\TasksPage.class
+com\CRM\TestUtils\WebEventListener.class
+com\CRM\TestBase\TestBase.class
+com\CRM\TestUtils\TestUtils.class
