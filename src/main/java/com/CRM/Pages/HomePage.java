@@ -25,6 +25,9 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//a[contains(text(),'Tasks')]")
 	WebElement TasksLink;
 	
+	@FindBy(xpath="//a[contains(text(),'New Task')]")
+	WebElement NewTaskLink;
+	
 	//Initialize the pagefactory --constructor
 	public HomePage()
 	{
@@ -61,10 +64,18 @@ public class HomePage extends TestBase{
 		DealsLink.click();
 		return new DealsPage();
 	}
+	
 	public TasksPage ClickTasksLink()
 	{
 		TasksLink.click();
 		return new TasksPage();
+	}
+	
+	public void  ClickOnNewTasksLink()
+	{
+		Actions act=new Actions(driver);
+		act.moveToElement(TasksLink).build().perform();
+		NewTaskLink.click();
 	}
 	
 	

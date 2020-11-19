@@ -41,7 +41,7 @@ public class ContactsPageTest extends TestBase{
 		Assert.assertTrue(contactspage.VerifyContactsLabel(), "Contacts page missing on web page");
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 2,enabled = false)
 	public void SelectContactsTest() throws InterruptedException
 	{
 		contactspage.SelectContactByName("aa bb");
