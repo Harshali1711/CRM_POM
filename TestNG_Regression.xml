@@ -12,9 +12,9 @@
 	<test name="CRM Automation Project">
 
 		<classes>
-			<class name="com.CRM.TestCases.LoginTest" />
+			<!-- <class name="com.CRM.TestCases.LoginTest" />
 			<class name="com.CRM.TestCases.HomePageTest" />
-			<class name="com.CRM.TestCases.ContactsPageTest" />
+			<class name="com.CRM.TestCases.ContactsPageTest" /> -->
 			<class name="com.CRM.TestCases.TasksPageTest" />
 		</classes>
 	</test>
