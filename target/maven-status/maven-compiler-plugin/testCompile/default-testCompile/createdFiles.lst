@@ -1,3 +1,4 @@
-com\CRM\TestCases\ContactsPageTest.class
 com\CRM\TestCases\LoginTest.class
+com\CRM\TestCases\TasksPageTest.class
+com\CRM\TestCases\ContactsPageTest.class
 com\CRM\TestCases\HomePageTest.class
